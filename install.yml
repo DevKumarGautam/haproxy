@@ -1,6 +1,6 @@
 ---
 - name: wazuh
-  hosts: remote
+  hosts: all
   gather_facts: true
   become: true
   roles:
